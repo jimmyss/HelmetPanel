@@ -24,7 +24,8 @@ SOURCES += \
     signup.cpp \
     suggestion.cpp \
     user.cpp \
-    work.cpp
+    work.cpp \
+    camera.cpp
 
 HEADERS += \
     mainwindow.h \
@@ -34,7 +35,8 @@ HEADERS += \
     signup.h \
     suggestion.h \
     user.h \
-    work.h
+    work.h \
+    camera.h
 
 FORMS += \
     mainwindow.ui \
@@ -44,7 +46,8 @@ FORMS += \
     signup.ui \
     suggestion.ui \
     user.ui \
-    work.ui
+    work.ui \
+    camera.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
