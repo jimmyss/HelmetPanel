@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>780</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_image">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>780</width>
+      <height>520</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/background/login.jpg);
+background-repeat: no repeat;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_title2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>180</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;SourceHanSansSC&quot;;
+color: rgba(96,96,96,1);
+background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>Helmet Testing</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_title3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>250</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;SourceHanSansSC&quot;;
+background-color: rgba(255, 255, 255, 0);
+color: rgba(82,82,82,1);</string>
+    </property>
+    <property name="text">
+     <string>The server obtains the data of the client for detection.</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_id1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>230</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Candara</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(247, 247, 247);
+border:1px groove gray;border-radius:
+7px;padding:2px 4px;
+font: 12pt &quot;Candara&quot;;
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Please enter your mobile number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_id2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(247, 247, 247);
+border:1px groove gray;border-radius:
+7px;padding:2px 4px;
+font: 12pt &quot;Candara&quot;;
+
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Please input a password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>350</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.52, y1:1, x2:0.54, y2:0, 
+stop:0.0112994 rgba(110,102,162,1), 
+stop:1 rgba(110,102,162,1));
+color: rgb(255, 255, 255, 255);
+ 
+border:0px groove gray;border-radius:
+15px;padding:2px 4px;
+font: 18pt &quot;Candara&quot;;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;SourceHanSansSC&quot;;
+color: rgba(0,0,0,1);</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2_back">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>110</y>
+      <width>271</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:18px;
+border-top: 5px solid qlineargradient(y0:0, y1:1,stop: 0 #ececef, stop: 1 white);
+border-left: 5px solid qlineargradient(x0:0, x1:1,stop: 0 #ececef, stop: 1 white);
+ border-bottom: 5px solid qlineargradient(y0:0, y1:1,stop: 0 white, stop: 1  #ececef);
+border-right: 5px solid qlineargradient(x0:0, x1:1,stop:  0 white, stop: 1 #ececef);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Register_B">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>350</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.52, y1:1, x2:0.54, y2:0, 
+stop:0.0112994 rgba(110,102,162,1), 
+stop:1 rgba(110,102,162,1));
+color: rgb(255, 255, 255, 255);
+background-color: rgb(215, 188, 201);
+ 
+border:0px groove gray;border-radius:
+15px;padding:2px 4px;
+font: 18pt &quot;Candara&quot;;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <zorder>label_image</zorder>
+   <zorder>label_2_back</zorder>
+   <zorder>label_title2</zorder>
+   <zorder>label_title3</zorder>
+   <zorder>lineEdit_id1</zorder>
+   <zorder>lineEdit_id2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>label</zorder>
+   <zorder>Register_B</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

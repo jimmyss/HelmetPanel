@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/background">
+        <file>login.jpg</file>
+        <file>register.jpg</file>
+        <file>white.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>homepage.png</file>
+        <file>notice.png</file>
+        <file>user.png</file>
+        <file>working.png</file>
+        <file>suggestion.png</file>
+        <file>setting.png</file>
+        <file>search.png</file>
+        <file>start.jpg</file>
+        <file>total.jpg</file>
+        <file>state.jpg</file>
+        <file>completed.jpg</file>
+        <file>user1.jpg</file>
+        <file>user2.jpg</file>
+        <file>user3.jpg</file>
+        <file>user11.jpg</file>
+        <file>user22.jpg</file>
+        <file>user33.jpg</file>
+        <file>user44.jpg</file>
+        <file>user55.jpg</file>
+    </qresource>
+    <qresource prefix="/other">
+        <file>photo.jpg</file>
+        <file>chat.jpg</file>
+        <file>photo2.jpg</file>
+    </qresource>
+</RCC>

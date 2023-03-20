@@ -1,0 +1,10 @@
+##ignore these files##
+/debug
+/pri
+/release
+Makefile.Release
+Login.pro.user
+Login.vcxproj.user
+Login.vcxproj
+Login.vcxproj.filters
+Makefile
