@@ -25,7 +25,10 @@ SOURCES += \
     suggestion.cpp \
     user.cpp \
     work.cpp \
-    camera.cpp
+    camera.cpp\
+    video_player.cpp\
+    yolov5.cpp\
+    utils.cpp
 
 HEADERS += \
     mainwindow.h \
@@ -36,7 +39,10 @@ HEADERS += \
     suggestion.h \
     user.h \
     work.h \
-    camera.h
+    camera.h\
+    video_player.h\
+    yolov5.hpp\
+    utils.hpp
 
 FORMS += \
     mainwindow.ui \
@@ -48,6 +54,7 @@ FORMS += \
     user.ui \
     work.ui \
     camera.ui
+
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

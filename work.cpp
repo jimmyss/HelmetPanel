@@ -5,6 +5,7 @@
 #include "notification.h"
 #include "suggestion.h"
 #include "principal.h"
+#include "camera.h"
 
 Work::Work(QWidget *parent) :
     QWidget(parent),
@@ -59,4 +60,11 @@ void Work::on_pushButton_portrait_clicked()
     this->close();
     User *u = new User;
     u->show();
+}
+
+void Work::on_pushButton_clicked()
+{
+    this->close();
+    Camera* camera = new Camera;
+    camera->show();
 }
