@@ -24,13 +24,13 @@ public:
     QLabel *label_top;
     QLabel *label_18;
     QLabel *label_19;
-    QLabel *label_17;
-    QLabel *label_4;
-    QLabel *label_11;
-    QLabel *label_12;
-    QLabel *label_13;
-    QLabel *label_14;
-    QLabel *label_15;
+    QLabel *label_welcome;
+    QLabel *label_home;
+    QLabel *label_work;
+    QLabel *label_user;
+    QLabel *label_sett;
+    QLabel *label_noti;
+    QLabel *label_sugg;
     QLabel *label_3;
     QLabel *label_2;
     QLabel *label;
@@ -67,6 +67,47 @@ public:
         label_19 = new QLabel(Work);
         label_19->setObjectName(QString::fromUtf8("label_19"));
         label_19->setGeometry(QRect(681, 0, 2, 40));
+<<<<<<< HEAD
+        label_19->setStyleSheet(QStringLiteral("background-color: rgb(238, 238, 238);"));
+        label_welcome = new QLabel(Work);
+        label_welcome->setObjectName(QStringLiteral("label_welcome"));
+        label_welcome->setGeometry(QRect(470, 0, 211, 41));
+        label_welcome->setStyleSheet(QStringLiteral(""));
+        label_home = new QLabel(Work);
+        label_home->setObjectName(QStringLiteral("label_home"));
+        label_home->setGeometry(QRect(40, 94, 101, 21));
+        label_home->setStyleSheet(QLatin1String("font: 14pt \"ProximaNova\";\n"
+"font-weight: bold;\n"
+"color: rgb(135, 135, 135);"));
+        label_work = new QLabel(Work);
+        label_work->setObjectName(QStringLiteral("label_work"));
+        label_work->setGeometry(QRect(40, 134, 101, 21));
+        label_work->setStyleSheet(QLatin1String("font: 14pt \"ProximaNova\";\n"
+"font-weight: bold;\n"
+"color: rgb(135, 135, 135);"));
+        label_user = new QLabel(Work);
+        label_user->setObjectName(QStringLiteral("label_user"));
+        label_user->setGeometry(QRect(40, 178, 101, 21));
+        label_user->setStyleSheet(QLatin1String("font: 14pt \"ProximaNova\";\n"
+"font-weight: bold;\n"
+"color: rgb(135, 135, 135);"));
+        label_sett = new QLabel(Work);
+        label_sett->setObjectName(QStringLiteral("label_sett"));
+        label_sett->setGeometry(QRect(40, 366, 101, 21));
+        label_sett->setStyleSheet(QLatin1String("font: 14pt \"ProximaNova\";\n"
+"font-weight: bold;\n"
+"color: rgb(135, 135, 135);"));
+        label_noti = new QLabel(Work);
+        label_noti->setObjectName(QStringLiteral("label_noti"));
+        label_noti->setGeometry(QRect(40, 408, 101, 21));
+        label_noti->setStyleSheet(QLatin1String("font: 14pt \"ProximaNova\";\n"
+"font-weight: bold;\n"
+"color: rgb(135, 135, 135);"));
+        label_sugg = new QLabel(Work);
+        label_sugg->setObjectName(QStringLiteral("label_sugg"));
+        label_sugg->setGeometry(QRect(40, 450, 101, 21));
+        label_sugg->setStyleSheet(QLatin1String("font: 14pt \"ProximaNova\";\n"
+=======
         label_19->setStyleSheet(QString::fromUtf8("background-color: rgb(238, 238, 238);"));
         label_17 = new QLabel(Work);
         label_17->setObjectName(QString::fromUtf8("label_17"));
@@ -106,6 +147,7 @@ public:
         label_15->setObjectName(QString::fromUtf8("label_15"));
         label_15->setGeometry(QRect(40, 450, 101, 21));
         label_15->setStyleSheet(QString::fromUtf8("font: 14pt \"ProximaNova\";\n"
+>>>>>>> cf1a10674dc41e9c8b1372498b62d36f46539caf
 "font-weight: bold;\n"
 "color: rgb(135, 135, 135);"));
         label_3 = new QLabel(Work);
@@ -212,6 +254,15 @@ public:
         label_top->setText(QString());
         label_18->setText(QString());
         label_19->setText(QString());
+<<<<<<< HEAD
+        label_welcome->setText(QApplication::translate("Work", "USER NAME,welcome back !", Q_NULLPTR));
+        label_home->setText(QApplication::translate("Work", "homepage", Q_NULLPTR));
+        label_work->setText(QApplication::translate("Work", "workspace", Q_NULLPTR));
+        label_user->setText(QApplication::translate("Work", "user", Q_NULLPTR));
+        label_sett->setText(QApplication::translate("Work", "settings", Q_NULLPTR));
+        label_noti->setText(QApplication::translate("Work", "history", Q_NULLPTR));
+        label_sugg->setText(QApplication::translate("Work", "instructions", Q_NULLPTR));
+=======
         label_17->setText(QCoreApplication::translate("Work", "USER NAME,welcome back !", nullptr));
         label_4->setText(QCoreApplication::translate("Work", "homepage", nullptr));
         label_11->setText(QCoreApplication::translate("Work", "workspace", nullptr));
@@ -219,6 +270,7 @@ public:
         label_13->setText(QCoreApplication::translate("Work", "settings", nullptr));
         label_14->setText(QCoreApplication::translate("Work", "history", nullptr));
         label_15->setText(QCoreApplication::translate("Work", "instructions", nullptr));
+>>>>>>> cf1a10674dc41e9c8b1372498b62d36f46539caf
         label_3->setText(QString());
         label_2->setText(QString());
         label->setText(QString());

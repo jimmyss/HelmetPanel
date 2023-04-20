@@ -1,5 +1,4 @@
-#ifndef USER_H
-#define USER_H
+#pragma once
 
 #include <QWidget>
 
@@ -32,4 +31,3 @@ private:
     Ui::User *ui;
 };
 
-#endif // USER_H

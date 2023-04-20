@@ -1,6 +1,4 @@
-#ifndef SIGNUP_H
-#define SIGNUP_H
-
+#pragma once
 #include <QWidget>
 
 namespace Ui {
@@ -24,6 +22,6 @@ private slots:
 
 private:
     Ui::Signup *ui;
+    int code;
 };
 
-#endif // SIGNUP_H
