@@ -1,6 +1,4 @@
-#ifndef SUGGESTION_H
-#define SUGGESTION_H
-
+#pragma once
 #include <QWidget>
 
 namespace Ui {
@@ -14,6 +12,7 @@ class Suggestion : public QWidget
 public:
     explicit Suggestion(QWidget *parent = nullptr);
     ~Suggestion();
+    bool readFile();
 
 private slots:
 
@@ -33,4 +32,3 @@ private:
     Ui::Suggestion *ui;
 };
 
-#endif // SUGGESTION_H

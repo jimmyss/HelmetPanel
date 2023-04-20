@@ -1,5 +1,4 @@
-#ifndef SETTING_H
-#define SETTING_H
+#pragma once
 
 #include <QWidget>
 
@@ -30,8 +29,15 @@ private slots:
 
     void on_pushButton_portrait_clicked();
 
+    void on_dark_button_clicked();
+
+    void on_light_button_clicked();
+
+    void on_english_button_clicked();
+
+    void on_chinese_button_clicked();
+
 private:
     Ui::Setting *ui;
 };
 
-#endif // SETTING_H

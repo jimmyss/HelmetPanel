@@ -2,9 +2,12 @@
 /debug
 /pri
 /release
+/.vs
 Makefile.Release
 Login.pro.user
 Login.vcxproj.user
 Login.vcxproj
 Login.vcxproj.filters
 Makefile
+instruction.txt
+Login.sln

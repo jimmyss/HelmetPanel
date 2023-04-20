@@ -1,6 +1,4 @@
-#ifndef PRINCIPAL_H
-#define PRINCIPAL_H
-
+#pragma once
 #include <QWidget>
 
 namespace Ui {
@@ -40,4 +38,3 @@ private:
     Ui::principal *ui;
 };
 
-#endif // PRINCIPAL_H

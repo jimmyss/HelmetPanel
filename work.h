@@ -1,5 +1,4 @@
-#ifndef WORK_H
-#define WORK_H
+#pragma once
 
 #include <QWidget>
 
@@ -32,4 +31,3 @@ private:
     Ui::Work *ui;
 };
 
-#endif // WORK_H

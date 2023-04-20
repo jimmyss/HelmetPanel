@@ -1,5 +1,4 @@
-#ifndef NOTIFICATION_H
-#define NOTIFICATION_H
+#pragma once
 
 #include <QWidget>
 
@@ -32,5 +31,3 @@ private slots:
 private:
     Ui::Notification *ui;
 };
-
-#endif // NOTIFICATION_H

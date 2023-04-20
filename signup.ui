@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>780</width>
-    <height>520</height>
+    <width>1340</width>
+    <height>850</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="label_image">
    <property name="geometry">
     <rect>
      <x>-1</x>
      <y>-5</y>
-     <width>781</width>
-     <height>531</height>
+     <width>1361</width>
+     <height>861</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -33,9 +33,9 @@
    <property name="geometry">
     <rect>
      <x>150</x>
-     <y>130</y>
-     <width>271</width>
-     <height>341</height>
+     <y>160</y>
+     <width>461</width>
+     <height>641</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -56,10 +56,10 @@ border-right: 5px solid qlineargradient(x0:0, x1:1,stop:  0 white, stop: 1 #ecec
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>150</y>
-     <width>71</width>
-     <height>31</height>
+     <x>190</x>
+     <y>190</y>
+     <width>171</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -73,10 +73,10 @@ color: rgba(0,0,0,1);</string>
   <widget class="QLineEdit" name="lineEdit_id1">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>200</y>
-     <width>211</width>
-     <height>31</height>
+     <x>190</x>
+     <y>270</y>
+     <width>311</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="font">
@@ -100,16 +100,16 @@ font: 12pt &quot;Candara&quot;;
     <string/>
    </property>
    <property name="placeholderText">
-    <string>Please enter your mobile number</string>
+    <string>Please enter your username</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_id1_2">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>250</y>
-     <width>211</width>
-     <height>31</height>
+     <x>190</x>
+     <y>370</y>
+     <width>311</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -142,10 +142,10 @@ font: 12pt &quot;Candara&quot;;
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>420</y>
-     <width>101</width>
-     <height>31</height>
+     <x>200</x>
+     <y>650</y>
+     <width>181</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -167,10 +167,10 @@ font: 18pt &quot;Candara&quot;;
   <widget class="QLineEdit" name="lineEdit_id1_3">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>300</y>
-     <width>211</width>
-     <height>31</height>
+     <x>190</x>
+     <y>460</y>
+     <width>311</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
@@ -194,19 +194,19 @@ font: 12pt &quot;Candara&quot;;
     <string/>
    </property>
    <property name="echoMode">
-    <enum>QLineEdit::Password</enum>
+    <enum>QLineEdit::Normal</enum>
    </property>
    <property name="placeholderText">
-    <string>Please input a password again</string>
+    <string>Please input a mail</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_id1_4">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>350</y>
-     <width>121</width>
-     <height>31</height>
+     <x>190</x>
+     <y>550</y>
+     <width>221</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -236,10 +236,10 @@ font: 12pt &quot;Candara&quot;;
   <widget class="QPushButton" name="Cancel_B">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>420</y>
-     <width>101</width>
-     <height>31</height>
+     <x>420</x>
+     <y>650</y>
+     <width>141</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -262,10 +262,10 @@ font: 18pt &quot;Candara&quot;;
   <widget class="QPushButton" name="Cancel_B_2">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>350</y>
-     <width>81</width>
-     <height>31</height>
+     <x>430</x>
+     <y>550</y>
+     <width>101</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
