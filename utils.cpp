@@ -60,8 +60,8 @@ void yolo_utils::visualizeDetection(cv::Mat &image, std::vector<Detection> &dete
             int y = detection.box.y;
 
             int conf = (int)std::round(detection.conf * 100);
-            int classId = detection.classId-1;
-            std::string label = classNames[classId] + " 0." + std::to_string(conf);//
+            int classId = detection.classId;
+            std::string label = classNames[classId-1] + " 0." + std::to_string(conf);//
 
             int baseline = 0;
             cv::Size size = cv::getTextSize(label, cv::FONT_ITALIC, 0.8, 2, &baseline);
