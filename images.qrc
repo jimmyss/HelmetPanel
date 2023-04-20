@@ -24,6 +24,13 @@
         <file>user33.jpg</file>
         <file>user44.jpg</file>
         <file>user55.jpg</file>
+        <file>pause.png</file>
+        <file>play.png</file>
+        <file>stop.png</file>
+        <file>terminate.png</file>
+        <file>close.png</file>
+        <file>min.png</file>
+        <file>square.png</file>
     </qresource>
     <qresource prefix="/other">
         <file>photo.jpg</file>

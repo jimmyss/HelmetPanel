@@ -136,7 +136,8 @@ border-style: solid;
 border-width: 0px;
 border-radius: 0px;
 background-color: rgba(223, 223, 223, 150);
-background-image:url{:/icon/min.png};}</string>
+background-image:}
+background-image: url(:/icon/min.png);</string>
            </property>
            <property name="text">
             <string/>
@@ -321,7 +322,26 @@ border-radius:0px;}
             </widget>
            </item>
            <item>
-            <widget class="QLineEdit" name="model_edit"/>
+            <widget class="QLineEdit" name="model_edit">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>600</width>
+               <height>16777215</height>
+              </size>
+             </property>
+            </widget>
            </item>
           </layout>
          </item>
@@ -376,7 +396,7 @@ border-radius:0px;}</string>
             </size>
            </property>
            <property name="text">
-            <string>TextLabel</string>
+            <string>Waiting for new video...</string>
            </property>
           </widget>
          </item>
@@ -392,7 +412,7 @@ border-radius:0px;}</string>
             <number>0</number>
            </property>
            <item>
-            <widget class="QPushButton" name="stopButton_3">
+            <widget class="QPushButton" name="stopButton">
              <property name="minimumSize">
               <size>
                <width>40</width>
@@ -405,13 +425,16 @@ border-style: solid;
 border-width: 0px;
 border-radius: 0px;
 background-color: rgba(223, 223, 223, 0);
+border-image: url(:/icon/stop.png);
 }
 QPushButton::focus{outline: none;}
 QPushButton::hover {
 border-style: solid;
 border-width: 0px;
 border-radius: 0px;
-background-color: rgba(223, 223, 223, 150);}</string>
+background-color: rgba(223, 223, 223, 150);
+}
+border-image: url(:/icon/terminate.png);</string>
              </property>
              <property name="text">
               <string/>
@@ -429,7 +452,7 @@ background-color: rgba(223, 223, 223, 150);}</string>
             </widget>
            </item>
            <item>
-            <widget class="QPushButton" name="runButton_3">
+            <widget class="QPushButton" name="runButton">
              <property name="minimumSize">
               <size>
                <width>40</width>
@@ -438,6 +461,7 @@ background-color: rgba(223, 223, 223, 150);}</string>
              </property>
              <property name="styleSheet">
               <string notr="true">QPushButton {
+	border-image: url(:/icon/play.png);
 border-style: solid;
 border-width: 0px;
 border-radius: 0px;
@@ -448,7 +472,9 @@ QPushButton::hover {
 border-style: solid;
 border-width: 0px;
 border-radius: 0px;
-background-color: rgba(223, 223, 223, 150);}</string>
+background-color: rgba(223, 223, 223, 150);
+	border-image: url(:/icon/pause.png);
+}</string>
              </property>
              <property name="text">
               <string/>
@@ -476,25 +502,50 @@ background-color: rgba(223, 223, 223, 150);}</string>
             </widget>
            </item>
            <item>
-            <widget class="QProgressBar" name="progressBar_3">
-             <property name="maximumSize">
+            <widget class="QLabel" name="part">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
               <size>
-               <width>16777215</width>
-               <height>5</height>
+               <width>30</width>
+               <height>0</height>
               </size>
              </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="total">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>30</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSlider" name="slider">
              <property name="styleSheet">
-              <string notr="true">QProgressBar{ color: rgb(255, 255, 255); font:12pt; border-radius:2px; text-align:center; border:none; background-color: rgba(215, 215, 215,100);} 
-QProgressBar:chunk{ border-radius:0px; background: rgba(55, 55, 55, 200);}</string>
+              <string notr="true"/>
              </property>
-             <property name="maximum">
-              <number>1000</number>
-             </property>
-             <property name="value">
-              <number>0</number>
-             </property>
-             <property name="textVisible">
-              <bool>false</bool>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
              </property>
             </widget>
            </item>
